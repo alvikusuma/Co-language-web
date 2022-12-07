@@ -1,0 +1,225 @@
+*{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-width:0px;
+    border:none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    /* text-align: right; */
+    align-items: center;
+    height: 100px;
+    color: #04A1E8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li{
+    margin: 0 20px;
+}
+
+/* .menu .btn {
+    border: 1px;
+} */
+
+/* .hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/FAVE/img/hero-background.jpg);
+    background-size: cover;
+} */
+
+.about-section{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.image-container img{
+    width: 600px;
+}
+
+.text-container{
+    color: #04A1E8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-container div{
+    margin: 10px 0;
+}
+
+.text-container .line-1 {
+    font-size: 1.3em;
+}
+
+.text-container .line-1a{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.text-container .line-1b{
+    font-weight: 30px;
+    font-size: 3em;
+}
+
+.text-container .line-2 {
+    font-size: 1em;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-1{
+    background-color: #04A1E8;
+    /* color: white;
+    padding: 10px 20px;
+    height: 40px;
+    line-height: 40px;
+    left: 12px; */
+
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+/* .button-1 .testing {
+        border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+} */
+
+.penjelasan {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: left;
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.penjelasan .kata {
+    color: #04A1E8;
+    width: 900px;
+}
+
+.penjelasan .kata .tambah{
+    font-size: 1.2em;
+    flex-direction: row;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.join-section{
+    width: 100%;
+    background-color: #04A1E8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.join-section .subscription{
+    color: white;
+    width: 350px;
+}
+
+.join-section .baris-1{
+    font-size: 2em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+} 
+
+.email input{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.email .button{
+    height: 40px;
+    background-color: #F77A7A;
+    color: white;
+    line-height: 40px;
+    padding: 0 10px;
+} 
+
+.quotes-section{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quotes-section img{
+    height: 50px;
+}
+
+.quotes-section .quotes{
+    width: 500px;
+    font-style: italic;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.quotes-section .author{
+    font-weight: bold;
+}
+
+.bonus .bonus-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #04A1E8;
+    color: white;
+    padding: 20px 20px;
+    align-items: center;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
